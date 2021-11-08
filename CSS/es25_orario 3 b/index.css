@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;
+  }
+  
+th{
+    background-color:#777;	
+	padding:;
+}
+
+.italiano{
+	background-color:#;
+}
+
+.telecomunicazioni{
+	background-color:#;
+}
+
+.storia{
+	background-color:#AAA;
+}
+
+.tpsi{
+	background-color:#;
+}
+
+.informatica{
+	background-color:#;
+}
+
+.matematica{
+	background-color:#0F0;
+}
+
+.inglese{
+	background-color:#F0F;
+}
+
+.sistemi{
+	background-color:#;
+}
+
+.free{
+	background-color:#EEE;
+}
+
+td:hover{
+   background-color:#00F;	
+   
+}

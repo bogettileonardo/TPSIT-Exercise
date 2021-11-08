@@ -1,0 +1,56 @@
+<!DOCTYPE html>       <!--  documento html5  --> 
+<html lang="it"> 
+   <head> 
+        <meta charset="UTF-8" /> 
+        <title>  Es 11  </title> 
+   </head> 
+   <body> 
+      <h1 align="center"> Pagina di Registrazione </h1>
+	  <form>
+	    <label for="txtNome"> Nome: </label>
+		<input size="50" required autocomplete="off" maxlength="20" placeholder="inserisci il tuo nome" type="text" id="txtNome"/>
+		     </br>
+		     </br>
+		<label for="txtCognome"> Cognome: </label>
+		<input size="50" required autocomplete="off" maxlength="20" placeholder="inserisci il tuo cognome" type="text" id="txtCognome"/>
+		     </br>
+		     </br>
+		<label for="txtPassword"> Password: </label>
+		<input size="50" required autocomplete="off" maxlength="22" placeholder="scegli la tua password" type="password" id="txtPassword"/>
+		     </br>
+		     </br>
+		<label for="txtEtà"> Età: </label>
+		<input size="50" required autocomplete="off" maxlength="18" placeholder="inserisci la tua età" type="number" id="txtEtà"/>
+		     </br>
+		     </br>
+		<label for="txtImgProf"> Immagine Profilo: </label>
+		<input size="50" required autocomplete="off"  placeholder="inserisci la tua foro profilo" type="file" id="txtImgProf"/>
+		     </br>
+		     </br>
+		<p> Hobbies: </p>
+		<label for="txtSport"> Sport </label>
+		<input type="checkbox" id="chkSport" autocomplete="off"/>
+		&nbsp;&nbsp;&nbsp;
+		<label for="txtCinema"> Cinema </label>
+		<input type="checkbox" id="chkCinema" autocomplete="off"/>
+		&nbsp;&nbsp;&nbsp;
+		<label for="txtInformatica"> Informatica </label>
+		<input type="checkbox" id="chkInformatica" autocomplete="off"/>
+		
+		<p> Scuola: </p>
+		<label for="txtItis"> Itis </label>
+		<input type="radio" id="optItis" name="optScuola" autocomplete="off"/>
+		&nbsp;&nbsp;&nbsp;
+		<label for="txtLiceo"> Liceo </label>
+		<input type="radio" id="optLiceo" name="optScuola" autocomplete="off"/>
+		&nbsp;&nbsp;&nbsp;
+		<label for="txtRagioneria"> Ragioneria </label>
+		<input type="radio" id="optRagioneria" name="optScuola" autocomplete="off"/>
+		     </br>
+		     </br>
+	    <input type="reset"/>
+		&nbsp;&nbsp;&nbsp;
+		<input type="submit"/>
+   </form>
+   </body> 
+</html> 

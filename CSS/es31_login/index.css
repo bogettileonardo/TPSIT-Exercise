@@ -1,0 +1,50 @@
+body{
+    background-color:#689;
+}
+h1{
+ 
+   text-align:center;
+   color:#FFF; 
+}
+#wrapper{
+    width:350px;
+    padding:30px;
+    margin:auto;
+    text-align:center;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+input{
+    border:0;
+    height:30px;
+    width: 290px;
+}
+.campi{
+    border: 1px solid #689;
+    border-radius:10px;
+    margin:10px;
+}
+.icone{
+    display: inline;
+    float:left;
+    padding-top:5.5px;
+    margin-right:10px;
+}
+.bottone{
+    display: inline;
+    color:white;
+    line-height: 30px;
+
+}
+.invia{
+    
+    border-radius:10px;
+    margin:10px;
+    background-color: #689;
+    height:30px;
+}
+div.bottone img{
+    float:left;
+    padding-top: 4.5px;
+    padding-left:10px;
+}

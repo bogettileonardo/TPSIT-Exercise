@@ -1,0 +1,27 @@
+p.paragrafo3{
+	color:#0000FF;
+	font-style:italic;
+	font-weight:bold;
+ }
+ 
+ div{
+     width:100px;
+	 height:150px;
+	 background-color:#EEFF99;
+	 margin:0 auto;
+	 text-align:center;
+	 line-height:150px;
+	 border:1px solid black;
+	 
+	 background-image:url(img2.jpg);
+	 background-size:contain;
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 color:rgb(255, 0, 0);
+	 
+ }
+ 
+ #div1{
+	 
+ }
+ 

@@ -1,0 +1,56 @@
+p {
+	font-family:verdana, helvetica, sans-serif;
+	font-size:15px;
+	text-align:center;
+  }
+  
+ p span {
+	 font-weight:bold;
+  }
+  
+  #intestazione {
+	  font-size:20pt;
+	  font-family:arial;
+  }
+  
+  .corsivo {
+	  font-size:italic;
+  }
+ 
+   .sottolineato {
+	  text-decoration:underline;
+	  color:blue;
+	  letter-spacing:-2px;
+	  word-spacing:2px;
+	  font-weight:normal;
+  }
+  
+  div {
+	  width:500px;
+	  /* height:150px; */
+	  border:1px solid green;
+	  border-left-width:4px;
+	  border-right-width:4px;
+	  background-color:#CAFFCA;
+	  margin-top:30px;
+	 
+	  margin:30px 0px 0px 100px;
+	  /*sopra desra sotto sinistra */
+	  
+	  margin:40px 200px;
+	  /*primo numero: sopra e sotto; secondo numero: destra e sinistra */
+	  
+	  margin:40px auto;
+	  /*sopra e al centro */
+	  
+	  vertical-align:middle;
+	  /* non fa niente perchè vale solo con i tag inline */
+	  
+	  /* line-height:150px;
+	  va bene solo quando ho una sola riga */
+	  
+  }
+ 
+
+
+ 

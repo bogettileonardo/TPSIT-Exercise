@@ -1,0 +1,33 @@
+*{
+  padding:0;
+  margin:0;
+  }
+  table
+  {
+  border: 1px solid #AAA;
+  margin:20px auto;
+  background-color: #DDD;
+  }
+  table thead th
+  {
+  width:130px;
+  padding:10px;
+  }
+  table thead tr
+  {
+    background-color: #99F;
+  }
+  table tbody td:hover
+  {
+    background-color: #00F;
+    color:#FFF;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  table tbody tr:nth-of-type(odd)
+  {
+    background-color: #AFA;
+  }
+  
+  
+
