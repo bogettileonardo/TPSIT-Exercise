@@ -10,7 +10,7 @@ h1{
     width:350px;
     padding:30px;
     margin:auto;
-    text-align:center;
+    text-align:center;  
     background-color: #FFF;
     border-radius: 10px;
 }
@@ -47,4 +47,4 @@ div.bottone img{
     float:left;
     padding-top: 4.5px;
     padding-left:10px;
-}
+}   
