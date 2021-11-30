@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    font-family: Verdana,Arial,sans-serif;
+    font-size:10pt;
+    background-image: url(img/bg.gif);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color:#EAEAEA;
+}
+#wrapper{
+    width:740px;
+    padding-left:10px;
+    padding-right:10px;
+    height:100%;
+    background-color:#DFF;
+    margin:10px auto;
+}
+#header{
+    height:190px;
+    margin:10px;
+    padding:10px;
+    border-radius: 20px;
+    background-image: url(img/medusa.jpg);
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    
+}
+#header h1{
+    font-size:30pt;
+    color:red;
+    padding: 15px;
+}
+#header h3{
+    font-size:16pt;
+    color:red;
+    padding:8px;
+}
+#mainBox{
+    width:540px;
+    height:250px;
+    padding:12px;
+    overflow:auto;
+    
+
+}
+#mainBox h3{
+    padding: 15px 20px;
+
+}
+#mainBox div{
+    float:left;
+    background-image:url(img/img.jpg);
+    width:110px;
+    height:88px;
+    margin-top:12px;
+    margin-bottom:12px;
+    margin-right:12px;
+    margin-left:5px;
+}
+#mainBox div p{
+    background-color: rgba(0,0,0,0) ;
+    color:rgba(0,0,0,0);
+    font-size:8pt;
+
+}
+#mainBox div:hover p{
+    background-color: rgba(238,238,238,0.5) ;
+    color:rgba(0,0,0,1);
+}
+#aside{
+    float:right;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:1px solid black;
+    border-radius: 10px;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+#aside li{
+    
+    width:140px;
+    height:50px;
+    font-weight:bold;
+    text-align: center;
+    line-height:50px;
+    margin:2px;
+    border:1px solid gray;
+    border-left-width:5px;
+    background-color:#AFA;
+    
+    border-radius: 5px;
+}
+#aside li a{
+    color:#333;
+}
+#aside li:hover{
+    text-decoration: underline;
+    background-color:#333;
+    
+}
+#aside li:hover a{
+    color:#AFA;
+}
+#footer{
+    margin-top:20px;
+    padding:7px;
+    border:1px solid black;
+    border-radius: 6px;
+    
+}
