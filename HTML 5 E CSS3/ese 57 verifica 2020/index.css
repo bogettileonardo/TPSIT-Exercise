@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Verdana, Helvetica;
+  font-size: 11pt;
+  background-image: url(img/sfondo.jpg);
+  background-attachment: fixed;
+}
+#wrapper{
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+h1{
+  font-size: 30pt;
+  color:blue;
+  text-align: center;
+  margin: 30px auto;
+  text-shadow: 3px 3px 4px #0099;
+}
+
+h3{
+  color: #0dd;
+}
+
+nav{
+  height: 90px;
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgba(40, 40, 40, 50%);
+  border-radius: 12px;
+  box-shadow: 3px 3px 4px black;
+}
+
+nav>ul{
+  display: inline-flex;
+  float: right;
+  border: solid 1px blue;
+}
+nav > ul > li{
+  display: block;
+  width: 80px;
+  height: 35px;
+  padding: 2px;
+  text-align: center;
+  margin: 10px; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  border: 1px solid black;
+  background-image: radial-gradient(#333 0%,#cccccc 100%);
+}
+nav > ul > li:hover{
+  background-image: radial-gradient(blue 6%,#fff 100%);
+}
+nav > ul > li > a:hover{
+  color:yellow;
+}
+a{
+  text-decoration: none;
+  list-style-type: none;
+  color: #0dd;
+}

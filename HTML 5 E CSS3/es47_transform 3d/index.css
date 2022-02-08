@@ -1,0 +1,20 @@
+
+div.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #555;
+    margin: 50px;
+}
+
+div.box div{
+	/* Il valore di default di height è auto, cioè pari all'altezza del contenuto*/ 
+	height: inherit;
+    color: #FFF;	
+    background-color: #F00;
+}
+
+
+/* ******************************************* */
+
+
+ 
